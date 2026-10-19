@@ -133,7 +133,6 @@ ul {
 /* コンタクト */
 #contact {
   margin-bottom: 130px;
-  text-align: center;
 }
 
 #contact dl {
@@ -163,6 +162,10 @@ ul {
   border: solid 1px #c8c8c8;
   padding: 10px;
   height: 160px;
+}
+
+#contact .btn {
+  text-align: center;
 }
 
 #contact .btn input {
@@ -214,32 +217,31 @@ ul {
   #works .list li {
     width: 100%;
   }
-#news {
+  #news {
     margin-bottom: 70px;
-}
-#news dl{
-flex-direction: column;
-}
-#news dl dt {
+  }
+  #news dl {
+    flex-direction: column;
+  }
+  #news dl dt {
     width: 100%;
     padding-bottom: 0;
-}
-#news dl dd {
+  }
+  #news dl dd {
     width: 100%;
     border-top: none;
     padding-top: 0;
-}
-#contact {
+  }
+  #contact {
     margin-bottom: 70px;
-}
-#contact dl dt {
-  width: 100%;
-  text-align: left;
-}
-#contact dl {
+  }
+  #contact dl dt {
+    width: 100%;
+  }
+  #contact dl {
     flex-direction: column;
-}
-#contact dl dd {
-  width: 100%;
-}
+  }
+  #contact dl dd {
+    width: 100%;
+  }
 }
