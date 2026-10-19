@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>My Work - Potrtfolio</title>
+    <title>My Work - Portfolio</title>
     <meta
       name="description"
       content="テキストテキストテキストテキストテキストテキストテキストテキスト"
@@ -41,11 +41,14 @@
 
     <main>
       <!-- メインビジュアル -->
-      <div class="mainvisual">
-        <img
-          src="./img/mainvisual-pc.jpg"
-          alt="青空を背にした建物と、手前のヤシの葉"
-        />
+      <div id="mainvisual">
+        <picture>
+          <source srcset="./img/mainvisual-sp.jpg" media="(max-width: 600px)" />
+          <img
+            src="./img/mainvisual-pc.jpg"
+            alt="青空を背にした建物と、手前のヤシの葉"
+          />
+        </picture>
       </div>
 
       <!-- アバウト -->
