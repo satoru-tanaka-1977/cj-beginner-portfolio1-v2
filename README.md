@@ -36,4 +36,4 @@ https://satoru-tanaka-1977.github.io/cj-beginner-portfolio1-v2/
 
 ## 制作状況
 
-制作中（2026.10.16〜）
+完成（2026.10.16〜10.20）
